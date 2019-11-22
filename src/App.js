@@ -4,10 +4,11 @@ import {connect} from 'react-redux'
 class App extends Component {
   componentDidMount = () => {
     const user = {
-      name: "Mazen"
+      name: "Leizl"
     }
     this.props.setUser(user)
   }
+
   render() {
     console.log(this.props.currentUser)
     return (
