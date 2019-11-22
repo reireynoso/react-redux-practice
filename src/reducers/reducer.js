@@ -1,6 +1,5 @@
 const initialState = {
-    currentUser: {name: "hello"},
-    newUser: "new key"
+    currentUser: {}
 }
 
 function reducer(state=initialState, action){
